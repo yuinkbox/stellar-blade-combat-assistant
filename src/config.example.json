@@ -1,0 +1,491 @@
+{
+  "toggle_key": "F9",
+  "once_key": "F8",
+  "next_combo_key": "F10",
+  "exit_key": "F12",
+  "keys": {
+    "light": "mouse_left",
+    "heavy": "mouse_right",
+    "dodge": "shift",
+    "guard": "e",
+    "heal": "q",
+    "skill": "1",
+    "forward": "w",
+    "lock_on": "mouse_middle",
+    "interact": "f",
+    "jump": "space"
+  },
+  "active_combo": "incursion_iii",
+  "step_interval_ms": 135,
+  "combo_end_pause_ms": 220,
+  "flow_link_ms": 55,
+  "flow_tail_ms": 80,
+  "flow_max_segments": 3,
+  "burst_min_enemies": 3,
+  "tachy_min_enemies": 4,
+  "beta_every_cycles": 2,
+  "beta_key": "1",
+  "beta_keys": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "beta_roles": {
+    "1": "aoe",
+    "2": "burst",
+    "3": "control",
+    "4": "defense"
+  },
+  "burst_keys": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "burst_modifier": "alt",
+  "burst_every_cycles": 4,
+  "beta_range": 600,
+  "burst_range": 800,
+  "tachy_range": 400,
+  "tachy_keys": [
+    "t"
+  ],
+  "tachy_cooldown_ms": 20000,
+  "auto_relock": true,
+  "auto_relock_range": 1600,
+  "auto_relock_cooldown_ms": 1200,
+  "gap_close_enabled": true,
+  "gap_close_max": 3000,
+  "gap_close_combo": "rush",
+  "gap_close_cooldown_ms": 1200,
+  "combo_deck": [
+    "incursion_i",
+    "incursion_ii",
+    "incursion_iii",
+    "incursion_iv",
+    "onslaught_i",
+    "onslaught_ii",
+    "onslaught_iii",
+    "onslaught_iv",
+    "air_chain",
+    "dodge_chain",
+    "beta_incursion_iv",
+    "beta_onslaught_iv",
+    "light_chain",
+    "heavy_chain",
+    "mix_chain",
+    "breaker_chain",
+    "beta_incursion_iii",
+    "beta_onslaught_ii",
+    "rush_chain"
+  ],
+  "finisher_every_cycles": 4,
+  "finisher_combo": "onslaught_iv",
+  "execution_combo": "rush_chain",
+  "require_focus": true,
+  "game_process": "SB-Win64-Shipping.exe",
+  "combos": {
+    "incursion_ii": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "incursion_iii": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "incursion_iv": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "onslaught_iii": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 450
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "onslaught_iv": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "rush_chain": [
+      {
+        "key": "heavy",
+        "hold_ms": 500
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30,
+        "with": "dodge"
+      }
+    ],
+    "counter_ii": [
+      {
+        "key": "heavy",
+        "hold_ms": 450
+      }
+    ],
+    "reflection": [
+      {
+        "key": "light",
+        "hold_ms": 450
+      }
+    ],
+    "light_chain": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      }
+    ],
+    "heavy_chain": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "mix_chain": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "breaker_chain": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 450
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "incursion_i": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "onslaught_i": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "onslaught_ii": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "air_chain": [
+      {
+        "key": "jump",
+        "hold_ms": 30,
+        "delay_ms": 350
+      },
+      {
+        "key": "light",
+        "hold_ms": 30,
+        "delay_ms": 150
+      },
+      {
+        "key": "light",
+        "hold_ms": 30,
+        "delay_ms": 150
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "dodge_chain": [
+      {
+        "key": "dodge",
+        "hold_ms": 30,
+        "delay_ms": 250
+      },
+      {
+        "key": "light",
+        "hold_ms": 30,
+        "delay_ms": 150
+      },
+      {
+        "key": "light",
+        "hold_ms": 30,
+        "delay_ms": 150
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      }
+    ],
+    "beta_incursion_iv": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 450
+      }
+    ],
+    "beta_onslaught_iv": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 450
+      }
+    ],
+    "rush": [
+      {
+        "key": "heavy",
+        "hold_ms": 600
+      }
+    ],
+    "beta_incursion_iii": [
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 450
+      }
+    ],
+    "beta_onslaught_ii": [
+      {
+        "key": "heavy",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "light",
+        "hold_ms": 30
+      },
+      {
+        "key": "heavy",
+        "hold_ms": 450
+      }
+    ]
+  },
+  "auto_engage": true,
+  "attack_range": 300,
+  "engage_distance": 1200,
+  "auto_state_path": "E:\\Steam\\steamapps\\common\\StellarBlade\\SB\\Binaries\\Win64\\ue4ss\\Mods\\SBAutoBattleState\\state.json",
+  "auto_rotation": [
+    "incursion_i",
+    "incursion_ii",
+    "incursion_iii",
+    "incursion_iv",
+    "onslaught_i",
+    "onslaught_ii",
+    "onslaught_iii",
+    "onslaught_iv",
+    "air_chain",
+    "dodge_chain",
+    "beta_incursion_iv",
+    "beta_onslaught_iv",
+    "light_chain",
+    "heavy_chain",
+    "mix_chain",
+    "breaker_chain"
+  ],
+  "execution_beta_role": "control",
+  "finisher_every": 3,
+  "beta_after_combo": true,
+  "chain_end_pause_ms": 260
+}
